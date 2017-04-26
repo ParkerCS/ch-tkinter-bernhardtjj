@@ -41,19 +41,22 @@ class App():
         self.m1 = tkinter.StringVar()
         self.m1_l = tkinter.Label(self.tk, text="M_1 (kg)", fg="black")
         self.m1_l.grid(row=2, column=1, columnspan=1, sticky='ew')
-        self.m1_e = tkinter.Entry(self.tk, textvariable=self.m1, highlightcolor="blue", font="TkDefaultFont", bg="white", fg="black")
+        self.m1_e = tkinter.Entry(self.tk, textvariable=self.m1, highlightcolor="blue", font="TkDefaultFont",
+                                  bg="white", fg="black")
         self.m1_e.grid(row=2, column=2, columnspan=3, sticky='ew')
 
         self.m2 = tkinter.StringVar()
         self.m2_l = tkinter.Label(self.tk, text="M_2 (kg)", fg="black")
         self.m2_l.grid(row=3, column=1, columnspan=1, sticky='ew')
-        self.m2_e = tkinter.Entry(self.tk, textvariable=self.m2, highlightcolor="blue", font="TkDefaultFont", bg="white", fg="black")
+        self.m2_e = tkinter.Entry(self.tk, textvariable=self.m2, highlightcolor="blue", font="TkDefaultFont",
+                                  bg="white", fg="black")
         self.m2_e.grid(row=3, column=2, columnspan=3, sticky='ew')
 
         self.r = tkinter.StringVar()
         self.r_l = tkinter.Label(self.tk, text="r (m)", fg="black")
         self.r_l.grid(row=4, column=1, columnspan=1, sticky='ew')
-        self.r_e = tkinter.Entry(self.tk, textvariable=self.r, highlightcolor="blue", font="TkDefaultFont", bg="white", fg="black")
+        self.r_e = tkinter.Entry(self.tk, textvariable=self.r, highlightcolor="blue", font="TkDefaultFont", bg="white",
+                                 fg="black")
         self.r_e.grid(row=4, column=2, columnspan=3, sticky='ew')
 
         self.go = tkinter.Button(self.tk, text="Calculate!", bg="white", activeforeground="white",
